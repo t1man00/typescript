@@ -1,0 +1,21 @@
+{
+  "name": "ls4",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "1": "tsx src/1-functions.ts",
+    "2": "tsx src/2-errors.ts",
+    "3": "tsx src/3-interface.ts",
+    "check": "tsc --noEmit",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}

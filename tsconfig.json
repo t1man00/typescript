@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    // Окружение
+    "target": "es2022",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "lib": ["es2022", "dom"],
+    "types": [],
+
+    // Выходные файлы
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "sourceMap": true,
+
+    // Строгая проверка типов
+    "strict": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+
+    // Раскомментируйте, когда закончите учебные примеры:
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+
+    // Прочее
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
